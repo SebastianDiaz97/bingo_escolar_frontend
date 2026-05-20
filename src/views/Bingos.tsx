@@ -97,7 +97,7 @@ export default function Bingos() {
                     loading={loading}
                     type="button"
                     onClick={() => handleChangeStatus(bingo.id)}
-                    className={`w-full rounded-2xl ${bingo.state ? "bg-red-500/10 text-red-300 hover:bg-red-500/20" : "bg-blue-500/10 text-blue-300 hover:bg-blue-500/20"} px-4 py-3 text-sm font-medium transition capitalize `}
+                    className={`w-full rounded-2xl ${bingo.state ? "bg-red-500/10 text-red-300 hover:bg-red-500/20" : "bg-blue-500/10 text-blue-300 hover:bg-blue-500/20"} px-4 py-3 text-sm font-medium transition capitalize w-full`}
                   >
                     {bingo.state ? "Cerrar Bingo" : "Activar Bingo"}
                   </LoadingButton>

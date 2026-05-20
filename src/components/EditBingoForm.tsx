@@ -116,14 +116,14 @@ export default function EditBingoForm({ onClose, bingoData }: Props) {
         <LoadingButton
           type="button"
           onClick={onClose}
-          className="bg-slate-700 px-4 py-3  hover:bg-slate-600"
+          className="bg-slate-700 px-4 py-3  hover:bg-slate-600 w-full"
         >
           cancelar
         </LoadingButton>
         <LoadingButton
           loading={loading}
           type="submit"
-          className="bg-blue-600 p-3"
+          className="bg-blue-600 p-3 w-full"
         >
           Modificar bingo
         </LoadingButton>

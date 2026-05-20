@@ -295,14 +295,14 @@ export default function EditMovements({ income, expense, onClose }: Props) {
           <LoadingButton
             onClick={onClose}
             type="button"
-            className="bg-slate-700 px-4 py-3  hover:bg-slate-600"
+            className="bg-slate-700 px-4 py-3 w-full hover:bg-slate-600"
           >
             Cancelar
           </LoadingButton>
           <LoadingButton
             loading={loading}
             type="submit"
-            className="bg-cyan-500/20 px-4 py-3 text-cyan-300 hover:bg-cyan-500/30"
+            className="bg-cyan-500/20 px-4 py-3 w-full text-cyan-300 hover:bg-cyan-500/30"
           >
             Guardar cambios
           </LoadingButton>

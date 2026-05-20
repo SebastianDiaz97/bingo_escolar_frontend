@@ -125,7 +125,7 @@ export default function AddUserForm({ bingoId, bingoName, onClose }: Props) {
           handleAddUser();
           setLoading(true);
         }}
-        className="bg-cyan-500/10 text-cyan-300 hover:bg-cyan-500/20 mt-5"
+        className="bg-cyan-500/10 text-cyan-300 hover:bg-cyan-500/20 mt-5 w-full"
       >
         Agregar
       </LoadingButton>

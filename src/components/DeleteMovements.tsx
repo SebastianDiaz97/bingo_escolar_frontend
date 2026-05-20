@@ -99,7 +99,7 @@ export default function DeleteMovements({ income, expense, onClose }: Props) {
           loading={loading}
           type="button"
           onClick={handleDelete}
-          className="bg-red-500/20 px-4 py-3 text-red-300 hover:bg-red-500/30"
+          className="bg-red-500/20 px-4 py-3 text-red-300 hover:bg-red-500/30 w-full"
         >
           Confirmar
         </LoadingButton>

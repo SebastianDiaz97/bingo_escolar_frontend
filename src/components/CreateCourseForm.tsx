@@ -42,9 +42,7 @@ export default function CreateCourseForm({ onClose }: Props) {
         disabled={false}
         type="button"
         onClick={() => mutate(name)}
-        className="
-              bg-blue-600 mt-5 py-3
-                "
+        className="bg-blue-600 mt-5 py-3 w-full"
       >
         Crear
       </LoadingButton>

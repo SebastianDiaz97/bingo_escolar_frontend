@@ -279,7 +279,7 @@ export default function CreateMovement({ type, onClose }: Props) {
           <LoadingButton
             loading={loading}
             type="submit"
-            className="text-cyan-300 hover:bg-cyan-500/30 bg-cyan-500/20 "
+            className="text-cyan-300 hover:bg-cyan-500/30 bg-cyan-500/20 w-full"
           >
             {type === "income" ? "Crear Ingreso" : "Crear Gasto"}
           </LoadingButton>

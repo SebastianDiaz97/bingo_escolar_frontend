@@ -133,7 +133,7 @@ export default function UsersTable({ bingoId, bingoName, createdBy }: Props) {
                         disabled={false}
                         type="button"
                         onClick={() => handleSave(user.id)}
-                        className="bg-cyan-500/10 px-4 py-2 text-cyan-300 hover:bg-cyan-500/20"
+                        className="bg-cyan-500/10 px-4 py-2 text-cyan-300 hover:bg-cyan-500/20 w-full"
                       >
                         Guardar
                       </LoadingButton>
@@ -142,7 +142,7 @@ export default function UsersTable({ bingoId, bingoName, createdBy }: Props) {
                         disabled={false}
                         type="button"
                         onClick={() => handleDelete(user.id)}
-                        className="bg-red-500/10 px-4 py-2 text-red-300 hover:bg-red-500/20"
+                        className="bg-red-500/10 px-4 py-2 text-red-300 hover:bg-red-500/20 w-full"
                       >
                         Eliminar
                       </LoadingButton>

@@ -118,7 +118,7 @@ export default function CreateBingoForm({ onClose }: Props) {
           loading={loading}
           disabled={false}
           type="submit"
-          className="bg-blue-600 p-3"
+          className="bg-blue-600 p-3 w-full"
         >
           Crear bingo
         </LoadingButton>

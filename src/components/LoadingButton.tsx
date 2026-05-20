@@ -21,7 +21,7 @@ export default function LoadingButton({
       disabled={disabled || loading}
       onClick={onClick}
       className={`
-        w-full rounded-2xl px-4 py-3
+        rounded-2xl px-4 py-3
         text-sm font-medium transition
         uppercase
         disabled:cursor-not-allowed
